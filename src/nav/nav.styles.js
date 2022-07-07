@@ -11,6 +11,7 @@ export const Container = styled.div`
 `;
 export const Box = styled.div`
   background-color: #6f58fc;
+  background: black;
   width: 50px;
   height: 50px;
   border-radius: 11px;
