@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "CabinetGrotesk-Black";
+  src: local("CabinetGrotesk-Black"),
+    url("./fonts/CabinetGrotesk-Black.ttf") format("truetype");
+  font-weight: Black;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Extrabold";
+  src: local("CabinetGrotesk-Extrabold"),
+    url("./fonts/CabinetGrotesk-Extrabold.ttf") format("truetype");
+  font-weight: Bold;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Bold";
+  src: local("CabinetGrotesk-Bold"),
+    url("./fonts/CabinetGrotesk-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Medium";
+  src: local("CabinetGrotesk-Medium"),
+    url("./fonts/CabinetGrotesk-Medium.ttf") format("truetype");
+  font-weight: Medium;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Regular";
+  src: local("CabinetGrotesk-Regular"),
+    url("./fonts/CabinetGrotesk-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "CabinetGrotesk-Light";
+  src: local("CabinetGrotesk-Light"),
+    url("./fonts/CabinetGrotesk-Light.ttf") format("truetype");
+  font-weight: Light;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "GeneralSans-Medium";
+  src: local("GeneralSans-Medium"),
+    url("./fonts/GeneralSans-Medium.ttf") format("truetype");
+  font-weight: Medium;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "GeneralSans-Semibold";
+  src: local("GeneralSans-Semibold"),
+    url("./fonts/GeneralSans-Semibold.ttf") format("truetype");
+  font-weight: SemiBold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "GeneralSans-Bold";
+  src: local("GeneralSans-Bold"),
+    url("./fonts/GeneralSans-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
