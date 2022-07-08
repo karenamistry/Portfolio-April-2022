@@ -2,9 +2,6 @@ import React from "react";
 import {
   Empty,
   Content,
-  Splash,
-  Door,
-  Photo,
   Container,
   Sticky,
   Intro,
@@ -18,6 +15,7 @@ import {
   Role,
   Right,
   Year,
+  Image,
 } from "./main.styles.js";
 
 function Main() {
@@ -28,7 +26,7 @@ function Main() {
         <Container>
           <Sticky>
             <Intro>
-              <Tag>Hi. I'm Karena.</Tag>
+              <Tag>Welcome. I'm Karena.</Tag>
               <Title>
                 I create meaningful digital interfaces, that aim to understand
                 the people using them.
@@ -39,13 +37,15 @@ function Main() {
               <Item>
                 Currently a Product Designer at Stocate & Dynamic CXS.
               </Item>
-              <Item>UR, UX, UI, Digital Marketing, Copywriting.</Item>
               <Item>
                 4 + years of experience designing for startups in Ottawa,
                 Toronto & Montreal.
               </Item>
+              <Item>UR, UX, UI, Digital Marketing, Copywriting.</Item>
             </List>
+          </Sticky>
 
+          <Sticky>
             <Experience>
               <Left>
                 <Role>Product Designer, Internship</Role>
@@ -117,12 +117,7 @@ function Main() {
             </Experience>
           </Sticky>
         </Container>
-
-        <Splash>
-          <Door>
-            <Photo></Photo>
-          </Door>
-        </Splash>
+        <Image></Image>
       </Content>
     </div>
   );
